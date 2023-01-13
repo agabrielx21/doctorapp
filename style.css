@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+body{
+    background-image: linear-gradient(to right, #2e7db8, #8847ad);
+    font-family: 'Bree Serif', serif;
+
+}
+.main-component{
+    width: 20%;
+    height: 200px;
+    margin-left: 40%;
+    margin-top: 10%;
+    background-color: white;
+    border-radius: 12px;
+}
+.second-component{
+    width: 100%;
+    height: 80%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: block;
+
+}
+.header{
+    padding-top: 55px;
+    margin-left: 15%;
+    font-family: 'Bree Serif', serif;
+}
+.line{
+    color: gray;
+    height: 1px;
+    width: 80%;
+    margin-left: -15%;
+}
+.submit{
+    margin-top: 15%;
+    width: 80%;
+    margin-left: -15%;
+    background-color: #2691d9;
+    border: none;
+    font-size: 1rem;
+    border-radius: 20px;
+    color: white;
+    height: 8%;
+    font-family: 'Bree Serif', serif;
+}
+.create{
+    margin-top: 7%;
+    width: 80%;
+    margin-left: -15%;
+    background-color: #2691d9;
+    border: none;
+    font-size: 1rem;
+    border-radius: 20px;
+    color: white;
+    height: 8%;
+    font-family: 'Bree Serif', serif;
+}
+
+.inp1{
+    margin-top: 10%;
+    height: 10%;
+    width: 65%;
+    margin-left: -7%;
+    border: 2px solid black;
+}
+.inp1::placeholder{
+    font-family: 'Bree Serif', serif;
+    color: black;
+    font-size: 1rem;
+}
+
+.inp2{
+    margin-top: 10%;
+    height: 10%;
+    width: 65%;
+    margin-left: -7%;
+    border: 2px solid black;
+}
+
+.inp2::placeholder{
+    font-family: 'Bree Serif', serif;
+    color: black;
+    font-size: 1rem;
+}
+
+.hello-header{
+    padding-top: 35%;
+    margin-left: 10%;
+}
+
+.redirect{
+    margin-left: 17%;
+    font-size: 1.5rem;
+}
+
+.redirect:visited{
+    color: black;
+}
+
+.error {
+    margin: 0px 14px 0px 10px;
+    font-size: 9px;
+    color: orange;
+    height: 6px;
+    padding: 0px 0px 8px 0px;
+    text-align: right;
+    text-transform: none;
+  }
+.header-register{
+    padding-top: 55px;
+    margin-left: -11%;
+    font-family: 'Bree Serif', serif;
+  }
+.input-register{
+    margin-top: 10%;
+    height: 6%;
+    width: 80%;
+    margin-left: -15%;
+    border: 2px solid black;
+  }
+.input-register::placeholder{
+
+    color: black;
+    font-size: 0.76rem;
+}
+.submit-register{
+    margin-top: 35%;
+    width: 80%;
+    margin-left: -15%;
+    background-color: #2691d9;
+    border: none;
+    font-size: 1rem;
+    border-radius: 20px;
+    color: white;
+    height: 8%;
+    font-family: 'Bree Serif', serif;
+}
